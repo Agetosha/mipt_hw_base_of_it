@@ -2,6 +2,9 @@
 .global main
 
 main:
+    push rbp
+    mov rbp, rsp
+
     call readi64
 
     mov rbx, 2147483647
